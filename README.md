@@ -14,7 +14,7 @@ Music Apps adalah aplikasi streaming musik berbasis app yang memungkinkan penggu
   NIM: 221111850
 
 
-##☁️ Arsitektur Cloud yang Digunakan
+## ☁️ Arsitektur Cloud yang Digunakan
 Dalam aplikasi ini, saya menggunakan dua layanan cloud, yaitu **Firebase** dan **Appwrite**, yang memiliki fungsi berbeda namun saling terintegrasi:
 
 ### 🔥 Firebase (Cloud Firestore)
