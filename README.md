@@ -33,24 +33,25 @@ Appwrite dipilih karena mendukung pengelolaan file dengan akses yang fleksibel, 
 
 
 ## 💡 Petunjuk Penggunaan Aplikasi
-1. Buka URL aplikasi live pada browser.
-2. Registrasi akun baru atau login menggunakan akun yang telah terdaftar.
-3. Pilih lagu dari daftar musik yang tersedia.
-4. Klik tombol play untuk memutar lagu, atur volume, dan tambahkan lagu ke playlist favorit.
-5. Logout setelah selesai menggunakan aplikasi.
+1. Buka aplikasi
+2. kalau ingin play cukup tekan icon play
+3. secara default aplikasi akan berada dalam mode online
+4. jika ingin masuk ke dalam mode offline ubah menjadi offline
+5. kalau ingin membuat playlist tekan tombol + pada setiap ujung kanan atas lagu
+6. cukup mudah karena memang user interface aplikasi ini di buat sangat simple
 
 ## 🛠️ Petunjuk Instalasi dan Cara Menjalankan Proyek di Lingkungan Lokal
 
 ### ⚙️ Prasyarat
 Pastikan sudah menginstall:
-- Node.js
-- npm
+- Flutter
+- emulator
 
 ### 🚀 Langkah-langkah Instalasi
-1. Clone repository:
-   ```bash
-   git clone https://github.com/winbertt1/project-music-app.git
-cd music-apps
-npm install
-npm start
+1. clone file github ini
+2. jalankan flutter di terimanal dengan flutter pub get
+3. hidupkan emulator
+4. ke main.dart
+5. run without debugging
+6. app berhasil jalan
 
