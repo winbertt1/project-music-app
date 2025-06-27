@@ -13,10 +13,8 @@ Music Apps adalah aplikasi streaming musik berbasis app yang memungkinkan penggu
 - Nama: Bayu Indra Syahputra
   NIM: 221111850
 
- 🌐 URL Aplikasi Live
-[https://link-aplikasi-mu.com](https://link-aplikasi-mu.com)
 
-☁️ Arsitektur Cloud yang Digunakan
+##☁️ Arsitektur Cloud yang Digunakan
 Dalam aplikasi ini, saya menggunakan dua layanan cloud, yaitu **Firebase** dan **Appwrite**, yang memiliki fungsi berbeda namun saling terintegrasi:
 
 ### 🔥 Firebase (Cloud Firestore)
