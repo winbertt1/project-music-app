@@ -1,7 +1,7 @@
 # 🎶 Music Apps
 
 ## 📝 Deskripsi Singkat
-Music Apps adalah aplikasi streaming musik berbasis web yang memungkinkan pengguna mendengarkan lagu secara online, membuat playlist, dan menikmati berbagai genre musik dengan antarmuka yang sederhana dan responsif.
+Music Apps adalah aplikasi streaming musik berbasis app yang memungkinkan pengguna mendengarkan lagu secara online, membuat playlist, dan menikmati berbagai genre musik dengan antarmuka yang sederhana dan responsif.
 
 ## 👥 Daftar Anggota Kelompok
 - Nama:Winbert 
@@ -17,12 +17,22 @@ Music Apps adalah aplikasi streaming musik berbasis web yang memungkinkan penggu
 [https://link-aplikasi-mu.com](https://link-aplikasi-mu.com)
 
 ☁️ Arsitektur Cloud yang Digunakan
-Aplikasi ini menggunakan arsitektur cloud sebagai berikut:
+Dalam aplikasi ini, saya menggunakan dua layanan cloud, yaitu **Firebase** dan **Appwrite**, yang memiliki fungsi berbeda namun saling terintegrasi:
 
-- Frontend: ReactJS (hosting di Vercel)
-- Backend: Node.js + Express (hosting di Render)
-- Database: Firebase Realtime Database
-- Storage: Firebase Storage untuk menyimpan file audio
+### 🔥 Firebase (Cloud Firestore)
+Firebase digunakan sebagai **database utama** untuk menyimpan data lagu dan playlist. Informasi yang disimpan mencakup:
+- ID lagu
+- Judul lagu
+- Nama penyanyi
+- URL lagu (link ke Appwrite)
+Firebase dipilih karena mudah diintegrasikan dengan Flutter, mendukung real-time database, dan memiliki dokumentasi yang lengkap.
+
+
+### 📦 Appwrite (Storage)
+Appwrite digunakan untuk **menyimpan file lagu/audio**. File disimpan di Appwrite Storage, lalu URL file tersebut disimpan di Firebase sebagai referensi untuk diputar oleh aplikasi.
+
+Appwrite dipilih karena mendukung pengelolaan file dengan akses yang fleksibel, dan bisa digunakan secara self-hosted maupun cloud.
+
 
 ## 💡 Petunjuk Penggunaan Aplikasi
 1. Buka URL aplikasi live pada browser.
