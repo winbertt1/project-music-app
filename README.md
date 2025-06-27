@@ -41,7 +41,7 @@ Pastikan sudah menginstall:
 ### 🚀 Langkah-langkah Instalasi
 1. Clone repository:
    ```bash
-   git clone https://github.com/username/music-apps.git
+   git clone https://github.com/winbertt1/project-music-app.git
 cd music-apps
 npm install
 npm start
