@@ -11,7 +11,7 @@ Music Apps adalah aplikasi streaming musik berbasis app yang memungkinkan penggu
 - Nama: Felix Luwinta
   NIM: 221111259
 - Nama: Bayu Indra Syahputra
-  NIM: 221111850
+  NIM: 211111850
 
 
 ## ☁️ Arsitektur Cloud yang Digunakan
