@@ -17,6 +17,8 @@ Music Apps adalah aplikasi streaming musik berbasis app yang memungkinkan penggu
 ## ☁️ Arsitektur Cloud yang Digunakan
 Dalam aplikasi ini, saya menggunakan dua layanan cloud, yaitu **Firebase** dan **Appwrite**, yang memiliki fungsi berbeda namun saling terintegrasi:
 
+## Link Url : https://mikroskilacid-my.sharepoint.com/:f:/g/personal/221111878_students_mikroskil_ac_id/EqqOFXYXnzJKqSHAcyqu7HoBtCUjjlLRnvkGsbt9I6ZqDw?e=gNsURb
+
 ### 🔥 Firebase (Cloud Firestore)
 Firebase digunakan sebagai **database utama** untuk menyimpan data lagu dan playlist. Informasi yang disimpan mencakup:
 - ID lagu
