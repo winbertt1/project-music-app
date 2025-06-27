@@ -4,25 +4,25 @@
 Music Apps adalah aplikasi streaming musik berbasis web yang memungkinkan pengguna mendengarkan lagu secara online, membuat playlist, dan menikmati berbagai genre musik dengan antarmuka yang sederhana dan responsif.
 
 ## 👥 Daftar Anggota Kelompok
-- **Nama:**Winbert 
-  **NIM:** 221111878
-- **Nama:** Constantin
-  **NIM:** 221112405
-- **Nama:** Felix Luwinta
-  **NIM:** 221111259
-   **Nama:** Bayu Indra Syahputra
-  **NIM:** 221111850
+- Nama:Winbert 
+  NIM: 221111878
+- Nama: Constantin
+  NIM: 221112405
+- Nama: Felix Luwinta
+  NIM: 221111259
+- Nama: Bayu Indra Syahputra
+  NIM: 221111850
 
-## 🌐 URL Aplikasi Live
+ 🌐 URL Aplikasi Live
 [https://link-aplikasi-mu.com](https://link-aplikasi-mu.com)
 
-## ☁️ Arsitektur Cloud yang Digunakan
+☁️ Arsitektur Cloud yang Digunakan
 Aplikasi ini menggunakan arsitektur cloud sebagai berikut:
 
-- **Frontend:** ReactJS (hosting di Vercel)
-- **Backend:** Node.js + Express (hosting di Render)
-- **Database:** Firebase Realtime Database
-- **Storage:** Firebase Storage untuk menyimpan file audio
+- Frontend: ReactJS (hosting di Vercel)
+- Backend: Node.js + Express (hosting di Render)
+- Database: Firebase Realtime Database
+- Storage: Firebase Storage untuk menyimpan file audio
 
 ## 💡 Petunjuk Penggunaan Aplikasi
 1. Buka URL aplikasi live pada browser.
